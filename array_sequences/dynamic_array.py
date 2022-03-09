@@ -34,7 +34,9 @@ class DynamicArray(object):
 
 
 arr = DynamicArray()
-arr.append(1)
+arr.append(12)
+print(len(arr))
+arr.append(2)
 print(len(arr))
 arr.append(2)
 print(len(arr))
