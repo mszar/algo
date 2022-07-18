@@ -21,6 +21,7 @@ def anagram(s1: str, s2: str) -> bool:
     return False
 
 
+
 print(anagram('go go go', 'gggooo'))
 print(anagram('abc', 'cba'))
 print(anagram('hi man', 'hi     man'))
